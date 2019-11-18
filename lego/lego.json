@@ -1,0 +1,37 @@
+
+{
+ "building": [
+   {
+     "Name": "Avatar: The Last Airbender LEGO Instructions ",
+     "legobuilding": "LEGO Instructions 3829 Fire Nation Ship",
+     "Set Number" : "LEGO 3829",
+     "Set Theme": "Avatar: The Last Airbender",
+     "Set Name": "Fire Nation Ship",
+     "Year": "2006",
+     "imgSrc": "avatar.jpg",
+     "id": "avatar"
+   },
+
+   {
+     "Name": "Harry Potter LEGO Instructions ",
+     "legobuilding": "LEGO Instructions 4709 Hogwarts Castle",
+     "SetNumber" : " LEGO 4709",
+     "SetTheme": " Harry Potter",
+     "SetName": "Hogwarts Castle",
+     "Year": "2001",
+     "imgSrc": "hp.jpg",
+     "id": "harrypotter"
+   },
+
+   {
+     "Name": " Sports NBA Basketball LEGO Instructions ",
+     "legobuilding": "LEGO Instructions 3432 NBA Challenge",
+     "Set Number" : " LEGO 3432",
+     "Set Theme": "  Sports NBA Basketball",
+     "Set Name": " NBA Challenge",
+     "Year": "2003",
+     "imgSrc": "nba.jpg",
+     "id": "nba"
+   }
+ ]
+}

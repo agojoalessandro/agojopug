@@ -1,0 +1,18 @@
+
+doctype html
+html
+ head
+   title #{title}
+   link(rel='stylesheet', href='/css/style.css')
+   meta(name="viewport" content="width=device-width, initial-scale=1")
+ body
+   header.header
+         h1 #{title}
+   article.container
+     each building in lego
+       div.building
+         div.building-image(style=`background: url('/images/${building.imgSrc}') top center no-repeat; background-size: cover;`)
+         h2.building-name
+           | #{building.name} #{building.legobuilding}
+         a(href=`/profile?id=${building.id}`)
+           | View Profile

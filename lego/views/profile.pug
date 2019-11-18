@@ -1,0 +1,26 @@
+
+doctype html
+html
+ head
+   title #{title}
+   link(rel='stylesheet', href='/css/style.css')
+   meta(name="viewport" content="width=device-width, initial-scale=1")
+ body
+   header.header
+         h1 #{title}
+   div.profile
+     div.profile-image(style=`background: url('/images/${building.imgSrc}') top center no-repeat; background-size: cover;`)
+     div.profile-details
+       h1.profile-name
+         | #{building.name} #{building.legobuilding}
+         p.profile-legobuilding
+         | #{building.legobuilding}
+         p.profile-SetNumber
+         | #{building.SetNumber}
+         p.profile-SetTheme
+         | #{building.SetTheme}
+         p.profile-SetName
+         | #{building.SetName}ù
+         p.profile-Year
+         | #{building.Year}
+       
